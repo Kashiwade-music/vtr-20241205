@@ -1,0 +1,7 @@
+services:
+  ubuntu:
+    build: ./.devcontainer
+    volumes:
+      - ./mount:/home/kashiwade/mount
+    stdin_open: true
+    tty: true
